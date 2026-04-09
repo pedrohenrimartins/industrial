@@ -39,15 +39,16 @@ body {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
     justify-self: stretch;
-    image-rendering: ;
-
-    background: #111D23;
+    
     color: whitesmoke;
-
+    background-color: #111D23;
+    
+   
+    background-image: url('https://img.freepik.com/fotos-gratis/silhuetas-de-canteiro-de-obras_1127-3253.jpg');
     background-repeat: no-repeat;
-    background-size: 80%
+    background-size: cover; 
+    background-position: center;
 }
-
 .rightSide {
     display: flex;
     padding: 64px;
