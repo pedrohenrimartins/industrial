@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 18px;
+    height: 8vh;
+    gap: 30px;
+    border-bottom: 1px solid rgba(85, 67, 54, 0.20);
+    background: #131313;
+}

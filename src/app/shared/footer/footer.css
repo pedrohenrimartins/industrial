@@ -1,0 +1,36 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    border-top: 1px solid #E2E8F0;
+    background: #F1F5F9;
+    padding: 32px;
+    
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer h1{
+    color: #0F172A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer p{
+    color: #64748B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
