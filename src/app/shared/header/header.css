@@ -6,7 +6,7 @@ header{
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     height: 8vh;
     padding: 32px;
-    width: 100vw
+    width: 100%;
 }
 
 header h1{
