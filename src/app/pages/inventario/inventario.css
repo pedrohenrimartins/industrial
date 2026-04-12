@@ -3,7 +3,7 @@
     flex-direction: row;
     height: auto;
     min-height: 100%;
-    width: 100%;    /* era 100vw — esse é o vilão principal */
+    width: 100%; 
     flex: 1;
 }
 
@@ -14,7 +14,7 @@ main{
     background-color: #131313;
     width: 100%;
     flex: 1;
-    min-height: 100vh; /* adiciona isso */
+    min-height: 100vh;
 }
 
 .inventory{
