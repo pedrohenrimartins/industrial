@@ -1,7 +1,10 @@
 .main {
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
+    width: 100%; 
+    flex: 1;
 }
 
 
@@ -9,8 +12,9 @@ main{
     display: flex;
     flex-direction: column;
     background-color: #131313;
-    width: 88vw;
-    height: 100%;
+    width: 100%;
+    flex: 1;
+    min-height: 100vh;
 }
 
 
