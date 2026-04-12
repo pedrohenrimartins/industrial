@@ -6,10 +6,16 @@
 }
 
 html, body {
-    height: 100%;
+    min-height: 100%;
+    width: 100%;          
+    overflow-x: hidden;   
+    display: flex;
 }
 
 app-root, app-cadastrar-produto, app-cadastro, app-home, app-inventario, app-login {
-    display: block;
+     display: flex;
+    flex-direction: column;
     height: 100%;
+    width: 100%;          
+    flex: 1;             
 }

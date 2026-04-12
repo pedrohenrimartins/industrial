@@ -1,0 +1,205 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    min-height: 100%;
+    width: 100%;    /* era 100vw — esse é o vilão principal */
+    flex: 1;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    width: 100%;
+    flex: 1;
+    min-height: 100vh; /* adiciona isso */
+}
+
+.inventory{
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    height: auto;
+
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-top: 1px solid rgba(85, 67, 54, 0.30);
+    border-right: 1px solid rgba(85, 67, 54, 0.30);
+    border-bottom: 2px solid rgba(85, 67, 54, 0.30);
+    border-left: 1px solid rgba(85, 67, 54, 0.30);
+    background-color: #1C1B1B;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+main input{
+    align-items: flex-start;
+    align-self: stretch;
+    border: none;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1C1B1B;
+    width: 100%;
+    color: rgba(219, 194, 176, 0.30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.inventory-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    border-left: 4px solid #FFB77D;
+    padding-left: 32px;
+}
+
+.inventory-header h1{
+    font-family:sans-serif;
+    margin-bottom: 15px;
+    color: #E5E2E1;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.inventory-header p{
+    color: #F28C28;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+table{
+    display: flex;
+    padding: 8px 0;
+    flex-direction: column;
+    gap: 8px;
+    align-self: stretch;
+    width: 100%;
+    margin-top: 20px;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+th{
+    width: 101.78px;
+    padding:16px 16px;
+
+    color: rgba(219, 194, 176, 0.60);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.th-product-name{
+    width: 150px;
+}
+
+td{
+    width: 101.78px;
+    padding: 16px 16px;
+    gap: 8px;
+}
+
+.product-id{
+    color: #ffb77dcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+.product-name{
+    color: #E5E2E1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.product-stock{
+    color: #E5E2E1;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.product-unitprice{
+    color: #E5E2E1;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.product-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0E0E0E;
+    margin-bottom: 8px;
+
+}
+
+select{
+    border: 1px solid rgba(85, 67, 54, 0.20);
+    background-color: #353534;
+    color: #E5E2E1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    outline: 0;
+}
+
+.table-button{
+    background-color: #F28C28;
+    color: #5D2F00;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px;
+    border: none;
+}

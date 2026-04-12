@@ -3,10 +3,10 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     background-color: #2A2A2A;
-    height: 100vh;
+    height: 100%;
     width: 12vw;
     flex-shrink: 0;
-    position: fixed;
+
 }
 
 aside h1{
@@ -23,21 +23,6 @@ aside h1{
 
 .selected{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    height: 48px;
-    color: #F28C28;
-    padding-left: 16px;
-    align-items: center;
-    gap: 12px;
-    flex-shrink: 0;
-    align-self: stretch;
-    border-left: 4px solid #F28C28;
-    background: #2A2A2A;
-    margin-bottom: 20px;
-}
-
-.not-select{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(229, 226, 225, 0.60);
     border: 0px none;
     display: flex;
@@ -47,6 +32,23 @@ aside h1{
     gap: 12px;
     flex-shrink: 0;
     align-self: stretch;
+    background: #2A2A2A;
+    margin-bottom: 20px;
+}
+
+.not-select{
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 48px;
+    color: #F28C28;
+    padding-left: 16px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-left: 4px solid #F28C28;
     background: #2A2A2A;
     margin-bottom: 20px;
 }
