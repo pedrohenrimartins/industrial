@@ -3,6 +3,7 @@
    flex-direction: row;
 }
 
+
 .banner-content{
     display: flex;
     flex-direction: column;
