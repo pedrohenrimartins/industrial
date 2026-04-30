@@ -16,34 +16,34 @@
                         <h3>Especificações</h3>
 
                         <p>Nome do Produto</p>
-                        <input type="text" placeholder="Digite o nome do produto" />
+                        <input type="text" placeholder="Digite o nome do produto" [(ngModel)]="produto.nome" />
 
                         <div class="inputs-section">
                             <div>
                                 <p>Categoria</p>
-                                <input type="text" placeholder="Digite a categoria" />
+                                <input type="text" placeholder="Digite a categoria" [(ngModel)]="produto.categoria" />
                             </div>
 
                             <div>
                                 <p>Preço unitário</p>
-                                <input type="number" placeholder="Digite o preço" />
+                                <input type="number" placeholder="Digite o preço" [(ngModel)]="produto.preco"/>
                             </div>
 
                             <div>
                                 <p>Identificador</p>
-                                <input type="text" placeholder="Ex: PRD-009" />
+                                <input type="text" placeholder="Ex: PRD-009" [(ngModel)]="produto.id"/>
                             </div>
 
                             <div>
                                 <p>Estoque</p>
-                                <input type="number" placeholder="Quantidade em estoque" />
+                                <input type="number" placeholder="Quantidade em estoque" [(ngModel)]="produto.estoque"/>
                             </div>
                         </div>
                     </div>
 
                     <div class="desc-block">
                         <h3>Descrição técnica</h3>
-                        <input type="text" placeholder="Descreva o produto" />
+                        <input type="text" placeholder="Descreva o produto" [(ngModel)]="produto.descricao"/>
                     </div>
                 </div>
 
@@ -55,11 +55,11 @@
                         <h2>Upload: jpg, png, svg da bibilioteca</h2>
                     </div>
 
-                    <a>
+                    <button (click) = "submeter()">
                         <h3>Salvar Produto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                         <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#5D2F00"/>
                         </svg></h3>
-                    </a>
+                    </button>
                 </div>
             </div>
         </section>

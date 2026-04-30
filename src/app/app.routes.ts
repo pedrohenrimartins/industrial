@@ -7,6 +7,7 @@ import { Inventario } from './pages/inventario/inventario';
 import { Carrinho } from './pages/carrinho/carrinho';
 import { LoginAdmin } from './pages/login-admin/login-admin';
 
+
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: Home },
@@ -15,5 +16,6 @@ export const routes: Routes = [
     {path: 'cadastro', component: Cadastro},
     {path: 'inventario', component: Inventario},
     {path: 'carrinho', component: Carrinho},
-    {path: 'login-admin', component: LoginAdmin}
+    {path: 'login-admin', component: LoginAdmin},
+    {path: 'alterar-produto/:id', component: CadastrarProduto}
 ];

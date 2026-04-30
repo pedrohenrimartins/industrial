@@ -14,210 +14,56 @@
                 </svg>
                  <input placeholder="Busque o produto no sistema "/>
             </div>
+            <button class="btn-add"  [routerLink]="['/cadastrar-produto']"> Novo Produto <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
+            <path d="M3.5 4.66667H0V3.5H3.5V0H4.66667V3.5H8.16667V4.66667H4.66667V8.16667H3.5V4.66667Z" fill="#5D2F00"/>
+            </svg></button>
             <div class="inventory-header">
                 <h1>Gerenciar Inventário</h1>
                 <p>Logística de Precisão e Gestão de Ativos</p>
             </div>
 
             <section class="products">
+                
                 <table>
-                    <tr>
-                        <th>Product ID</th>
-                        <th class="th-product-name">Nome do Produto</th>
-                        <th>Categoria</th>
-                        <th>Quantidade Estoque</th>
-                        <th>Preço Unitario</th>
-                        <th>Alterar</th>
-                        <th>Deletar</th>
-                    </tr>
+  <thead>
+    <tr>
+      <th>Product ID</th>
+      <th class="th-product-name">Nome do Produto</th>
+      <th>Categoria</th>
+      <th>Quantidade Estoque</th>
+      <th>Preço Unitario</th>
+      <th>Alterar</th>
+      <th>Deletar</th>
+    </tr>
+  </thead>
 
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    <tr class="product-row">
-                        <td class="product-id">1111111111</td>
-                        <td class="product-name">Serra Cirular 185</td>
-                        <td class="product-category"> 
-                            <select name="categoria">
-                                <option>Ferramentas</option>
-                                <option>Equipamentos</option>
-                                <option>Pintura</option>
-                                <option>Jardinagem</option>
-                            </select>
-                        </td>
-                        <td class="product-stock">50</td>
-                        <td class="product-unitprice">R$ 974,35</td>
-                        <td class="product-action">
-                            <button class="table-button">Alterar</button>
-                        </td>
-
-                        <td class="product-action">
-                            <button class="table-button">Deletar</button>
-                        </td>
-                    </tr>
-
-                    
-                    
-
-                    
-
-                    
-                </table>
+  <tbody>
+    @for (produto of listaProdutos; track produto.id) {
+    <tr class="product-row">
+      <td class="product-id">{{produto.id}}</td>
+      <td class="product-name">{{produto.nome}}</td>
+      <td class="product-category">
+        <div class="categoria">
+          <p>{{produto.categoria}}</p>
+        </div>
+      </td>
+      <td class="product-stock">{{produto.estoque}}</td>
+      <td class="product-unitprice">{{produto.preco}}</td>
+      <td class="product-action">
+        <button class="table-button" [routerLink]="['/alterar-produto', produto.id!]">Alterar</button>
+      </td>
+      <td class="product-action">
+        <button class="table-button" (click) = "excluir(produto.id!)">Deletar</button>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>
             </section>
 
         </section>
     </main>
+
 </div>
 
 

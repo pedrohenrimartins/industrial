@@ -88,6 +88,8 @@ main input{
 
 table{
     display: flex;
+width: 100%;
+    border-collapse: collapse;
     padding: 8px 0;
     flex-direction: column;
     gap: 8px;
@@ -174,9 +176,7 @@ td{
 
 }
 
-select{
-    border: 1px solid rgba(85, 67, 54, 0.20);
-    background-color: #353534;
+.categoria{
     color: #E5E2E1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10px;
@@ -187,6 +187,8 @@ select{
     text-transform: uppercase;
     border: none;
     outline: 0;
+    padding: 8px;
+    width: 100%;
 }
 
 .table-button{
@@ -203,3 +205,31 @@ select{
     padding: 8px;
     border: none;
 }
+
+.btn-add{
+    display: flex;
+    padding: 12px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #F28C28;
+    color: #5D2F00;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    max-width: 300px;
+    border: none;
+    margin-bottom: 48px;
+}
+
+.btn-add svg{
+    height: 12px;
+    width: 12px;
+}
+

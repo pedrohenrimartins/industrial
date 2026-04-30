@@ -120,13 +120,7 @@ section{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.sidebar a{
-    display: flex;
-    height: 90px;
-    width: 380px;
-    background-color: #F28C28;
-    gap: 20px;
-}
+
 
 .inputs{
     display: flex;
@@ -233,7 +227,7 @@ section{
     border: 0px none;
 }
 
-.sidebar a{
+.sidebar button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,5 +236,10 @@ section{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     text-transform: uppercase;
-    
+    display: flex;
+    height: 90px;
+    width: 380px;
+    background-color: #F28C28;
+    gap: 20px;
+    border: none;
 }
