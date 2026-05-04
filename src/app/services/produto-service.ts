@@ -16,12 +16,12 @@ export class ProdutoService {
     buscarPorId(id: string): Observable<Produto | undefined> {
     return this.http.get<Produto>(this.API + `/${id}`);
     }
-    incluir(pessoa: Produto): Observable<Produto>{
-      return this.http.post<Produto>(this.API, pessoa)
+    incluir(produto: Produto): Observable<Produto>{
+      return this.http.post<Produto>(this.API, produto)
     }
-    editar(pessoa: Produto): Observable<Produto>{
-      const url = `${this.API}/${pessoa.id}`
-      return this.http.put<Produto>(url, pessoa)
+    editar(produto: Produto): Observable<Produto>{
+      const url = `${this.API}/${produto.id}`
+      return this.http.put<Produto>(url, produto)
     }
     excluir(id: number): Observable<Produto>{
       return this.http.delete<Produto>(this.API + `/${id}`);

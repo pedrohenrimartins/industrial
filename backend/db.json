@@ -9,20 +9,20 @@
       "descricao": "testando a adiçao de um produto "
     },
     {
-      "nome": "Teste adiçao",
-      "categoria": "ferramentas",
-      "id": "uKdchzQy91w",
-      "preco": 1000,
-      "estoque": 900,
-      "descricao": "teste alteração"
-    },
-    {
       "nome": "Testando novamente",
       "categoria": "Pintura",
       "preco": 10,
       "estoque": 40,
       "descricao": "descrição",
       "id": "wOm-kBHGTYM"
+    },
+    {
+      "nome": "testando após alterações 1",
+      "categoria": "equipamentos",
+      "preco": 20,
+      "estoque": 400,
+      "id": "lV2DdOr2U6Y",
+      "descricao": "testando mais uma vez"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
