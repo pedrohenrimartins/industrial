@@ -31,7 +31,7 @@ export class CadastrarProduto implements OnInit {
 
   if (this.produtoId) {
     this.service.buscarPorId(this.produtoId).subscribe(produto => {
-      console.log("Produto retornado:", produto); // ← o que aparece aqui?
+      console.log("Produto retornado:", produto);
       if (produto) {
         this.produto = { ...produto };
         this.cdr.detectChanges();
@@ -41,7 +41,7 @@ export class CadastrarProduto implements OnInit {
 }
 
   submeter() {
-  console.log("produtoId no submeter:", this.produtoId); // ← mostra o id?
+  console.log("produtoId no submeter:", this.produtoId);
   console.log("produto no submeter:", this.produto);
 
   if (this.produtoId) {
