@@ -6,3 +6,9 @@ export interface Produto{
     estoque: number;
     descricao: string;
 }
+
+export interface Pessoa{
+    id?: string;
+    email: string,
+    senha: string    
+}

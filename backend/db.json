@@ -25,5 +25,22 @@
       "descricao": "testando mais uma vez"
     }
   ],
+  "pessoas": [
+    {
+      "id": "01",
+      "email": "christian@gmail.com",
+      "senha": "1304"
+    },
+    {
+      "email": "Renanminer@gmail.com",
+      "senha": "Renan0101",
+      "id": "dTGCJuNDN08"
+    },
+    {
+      "email": "Pedrinhogameplay@gmail.com",
+      "senha": "1604",
+      "id": "E5TfYShgp7s"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

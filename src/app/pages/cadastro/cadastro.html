@@ -24,7 +24,7 @@
 
 
                     <p class="txtInput">E-mail:
-                        <input type="text" name="username" placeholder="nome@gmail.com">
+                        <input type="text" name="username" placeholder="nome@gmail.com" [(ngModel)]="pessoa.email">
                     </p>
                     <br>
                     <p class="txtInput">Confirme o E-mail:
@@ -32,7 +32,7 @@
                     </p>
                     <br>
                     <p class="txtInput">Senha:
-                        <input type="password" name="password" placeholder="••••••••">
+                        <input type="password" name="password" placeholder="••••••••" [(ngModel)]="pessoa.senha">
                     </p>
                     <br>
                     <p class="txtInput">Confirme a Senha:
@@ -40,7 +40,7 @@
                     </p>
                     <p class="span">Já tem cadastro? acesse: <span>Login</span></p>
 
-                    <button>Cadastre-se</button>
+                    <button (click) = "submeter()">Cadastre-se</button>
 
 
 
