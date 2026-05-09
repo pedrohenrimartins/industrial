@@ -40,6 +40,11 @@
       "email": "Pedrinhogameplay@gmail.com",
       "senha": "1604",
       "id": "E5TfYShgp7s"
+    },
+    {
+      "email": "rodriguin@gmail.com",
+      "senha": "1234",
+      "id": "VR8L-P0IhEY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
