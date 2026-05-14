@@ -117,7 +117,7 @@ button {
     background-color: #f28c28;
 
     border: none;
-
+    cursor: pointer;
     border-radius: 5px;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -126,6 +126,9 @@ button {
     font-weight: 700;
 }
 
+button:disabled{
+    background-color: #f22828;
+}
 
 span {
     color: #f28c28;
